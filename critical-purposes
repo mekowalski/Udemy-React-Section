@@ -1,0 +1,9 @@
+What is React and it's purpose?
+-JS library
+-Produce some usable content(HTML) that will show up on the user's browser page
+-Handle user interaction
+
+Why not use Redux to make an application?
+-React can work alone
+-It can be complex/complicated
+-React can also work with other varieties of libraries, packages, servers ans databases
