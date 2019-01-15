@@ -18,3 +18,8 @@ What is the HTML-looking format?
 -Not quite HTML
 -Looks like HTML placed inside JS code
 -Determines content of React app just like normal HTML
+
+How does the screen display changes?
+-With an event handler
+-Event handlers are used to detect user interaction and respond to it
+-eg: click, hover, keyUp, keyDown, etc
