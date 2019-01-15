@@ -12,3 +12,9 @@ What is a 'class'?
 -It is a JavaScript 'class' ES5 and ES6
 -The class itself creates a React 'COMPONENT'
 -Components created to use either JS functions or classes
+
+What is the HTML-looking format?
+-JSX, Special dialect of JS
+-Not quite HTML
+-Looks like HTML placed inside JS code
+-Determines content of React app just like normal HTML
