@@ -23,3 +23,8 @@ How does the screen display changes?
 -With an event handler
 -Event handlers are used to detect user interaction and respond to it
 -eg: click, hover, keyUp, keyDown, etc
+
+Why are 2 separated libraries(React and ReactDOM) added?
+-React library contains JS code defining what a component is and how multiple components work together
+-ReacDOM library contains some JS code that takes collections of components and gets them to show up on the
+ DOM
