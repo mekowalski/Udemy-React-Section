@@ -7,3 +7,8 @@ Why not use Redux to make an application?
 -React can work alone
 -It can be complex/complicated
 -React can also work with other varieties of libraries, packages, servers ans databases
+
+What is a 'class'?
+-It is a JavaScript 'class' ES5 and ES6
+-The class itself creates a React 'COMPONENT'
+-Components created to use either JS functions or classes
