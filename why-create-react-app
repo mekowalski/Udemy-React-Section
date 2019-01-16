@@ -1,2 +1,15 @@
 Used create-react-app to create a Brand New Project
 -Inside this new Project will have many dependencies that help properly write the application
+
+ES5: Common JavaScript version
+-There are different versions for this ES spec after every year after 2015
+-Each version has some number of new features and upgrades
+-Generally to the benefit of developers
+
+-Issue with all theses new versions
+-Browsers are always held 100% up to date
+-Majority of browsers will support ES5 and almost true for ES2015
+-Not all browsers have support for ES2016 and forward
+
+BABEL
+-Takes any version os JS and gives out a newer version. It is a converter of some sort
