@@ -15,3 +15,11 @@ package-lock.json: Records the EXACT version of packages that are installed, con
 README.md: Instructions on how to use the project(project manual)
 
 .gitignore: Reference to the Git version control system, Git should ignore when tracking project
+
+
+////////////////////////////////////////////////////////////////////////////////
+import React from 'react'
+import:     Get code from other file or dependency
+React:      Variable to assign what is being imported
+from:       Specify the name of the library or file importing from
+'react':    Name of dependency OR path to the file being imported
