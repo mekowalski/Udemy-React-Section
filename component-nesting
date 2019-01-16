@@ -11,3 +11,5 @@ from './CommentDetail'  |
                         |            |
                         --->   export default
                                 CommentDetail
+
+-No limit of how many Components to show in a component
