@@ -2,3 +2,11 @@ src: Folder where all written source code is held(generally all the defaulted cr
   or modified)
 
 public: Folder that stores static files like images
+
+node_modules: Contains all the project dependencies
+
+package.json: Records the project dependencies and configures the project
+
+package-lock.json: Records the EXACT version of packages that are installed
+
+README.md: Instructions on how to use the project(project manual)
