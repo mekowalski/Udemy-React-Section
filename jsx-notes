@@ -44,10 +44,23 @@ eg:
 HTML: <div style='background-color: red;'></div>
 JSX: <div style={{backgroundColor: 'red'}}></div>
 
+
 -Adding a class to an element uses different syntax
 *class is a reserved JS keyword*
 eg:
 HTML: <label class="label">Enter Name: </label>
 JSX: <label className="label">Enter Name: </label>
 
+
 -JSX can reference JS variables
+*take JS variable and print it up in JSX block*
+eg:
+const App = () => {
+  const buttonText = 'Click Me'
+
+  return (
+    <button style={{ backgroundColor: 'green', color: 'white' }}>
+      {buttonText}
+    </button>
+  )
+}
