@@ -12,4 +12,9 @@ ES5: Common JavaScript version
 -Not all browsers have support for ES2016 and forward
 
 BABEL
+-It is included by default when create-react-app is used
 -Takes any version os JS and gives out a newer version. It is a converter of some sort
+eg:
+
+ES2015 JS                ES5 JS
+ JS File ---> BABEL ---> JS File ---> BROWSER SUPPORT & DISPLAY
