@@ -31,3 +31,9 @@ const App = () => {
     "Hi There!"
   );
 };
+
+
+CONVERT HTML TO JSX
+1. Special dialect of JS(it is NOT HTML)
+2. Browsers don't understand JSX code, JSX is written then tools will turn it into normal JS
+3. SImilar in form/function to HTML with a few differences
