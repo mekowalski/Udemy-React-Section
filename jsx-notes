@@ -70,3 +70,7 @@ VALUES JSX CAN'T SHOW
 -What you can reference inside a JSX
 -Values can be a string, numbers, an array of strings/numbers
 -Not allowed to reference a JS object inside JSX unless you call the key after the variable
+
+-Find Forbidden Property Names with the DevTools Console
+-Most of the time the application will work but you won't know BTS what may be incorrect
+-Good practice to keep Console open
