@@ -1,0 +1,3 @@
+COMPONENT: Function OR Class
+1. Produces HTML to show user using JSX
+2. And handles feedback from the user using Event Handlers
