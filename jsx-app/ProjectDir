@@ -1,12 +1,17 @@
 src: Folder where all written source code is held(generally all the defaulted created files will be deleted
   or modified)
 
-public: Folder that stores static files like images
+public: Folder that stores static files like images, and html file that never changes
 
-node_modules: Contains all the project dependencies
+node_modules: Contains all the project dependencies, consisting of the 1900+ dependencies that were
+  installed with creation
 
-package.json: Records the project dependencies and configures the project
+package.json: Records the project dependencies and configures the project, over time there will be future
+  updates to the dependencies
 
-package-lock.json: Records the EXACT version of packages that are installed
+package-lock.json: Records the EXACT version of packages that are installed, consisting of the 1900+
+  dependencies initially installed with creation
 
 README.md: Instructions on how to use the project(project manual)
+
+.gitignore: Reference to the Git version control system, Git should ignore when tracking project
