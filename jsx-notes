@@ -9,3 +9,25 @@ create-react-app: Name of package wanting to install
 
 3. Generate a project
 4. Build a project!!!
+
+
+////////////////////////////////////////////////////////////////////////////////
+JSX
+-No browser actually understand what JSX is, Babel converts JSX for browser use and support
+-JSX allows writing function calls in a a much compact and easy format
+
+-babeljs.io
+eg:
+JSX
+const App = () => {
+  return <div>Hi There!</div>;
+};
+
+Results into a Function Call
+const App = () => {
+  return React.createElement(
+    "div",
+    null,
+    "Hi There!"
+  );
+};
