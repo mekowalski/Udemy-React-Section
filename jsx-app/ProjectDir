@@ -23,3 +23,6 @@ import:     Get code from other file or dependency
 React:      Variable to assign what is being imported
 from:       Specify the name of the library or file importing from
 'react':    Name of dependency OR path to the file being imported
+
+import: References a module system of ES2015 modules, with a set of rules
+require: Refernces CommonJS modules with a different set of rules
