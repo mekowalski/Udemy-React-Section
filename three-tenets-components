@@ -1,6 +1,13 @@
 THREE TENETS OF COMPONENTS
 1. NESTING
+  -Component can be shown inside another
 
 2. REUSABILITY
+  -Make components that can easily be reused throughout application
 
 3. CONFIGURATIONS
+  -Configure a component when it is created
+  -Coupled with reusability
+
+
+APPLICATION OVERVIEW
