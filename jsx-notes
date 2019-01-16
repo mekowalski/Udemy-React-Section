@@ -64,3 +64,9 @@ const App = () => {
     </button>
   )
 }
+
+
+VALUES JSX CAN'T SHOW
+-What you can reference inside a JSX
+-Values can be a string, numbers, an array of strings/numbers
+-Not allowed to reference a JS object inside JSX unless you call the key after the variable
