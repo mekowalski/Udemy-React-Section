@@ -1,0 +1,14 @@
+PORT IN USE MESSAGE
+-This means that another server may already be running on port 3000
+-Either run the 2nd port or end either one of the ports
+
+LOCALHOST:8080 DOESN'T WORK
+-Go back to terminal
+-Go to the On Your Network link and use that in the browser
+
+STOP REACT APP
+-ctrl+c at the terminal
+-Should direct terminal to default command
+
+START REACT APP
+-npm start within the project directory
