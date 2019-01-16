@@ -1,0 +1,13 @@
+Component Nesting
+
+  index.js                    CommentDetail.js
+import CommentDetail <---
+from './CommentDetail'  |
+      |                 |
+      |                 |
+    App                 |      CommentDetail
+ Component              |        Component
+                        |            |
+                        |            |
+                        --->   export default
+                                CommentDetail
