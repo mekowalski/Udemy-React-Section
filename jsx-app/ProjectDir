@@ -1,0 +1,4 @@
+src: Folder where all written source code is held(generally all the defaulted created files will be deleted
+  or modified)
+
+public: Folder that stores static files like images
