@@ -32,12 +32,13 @@ PROPS     name:              name:              name:
 
 TWO STAGES
 1. Provide info from Parent to Child
-2. Child consumes that information
-
-Providing Props from Parent to Child
+eg:
 <CommentDetail author='Malind' />
 CommentDetail:      Child Component
 author=:            PROPerty name
 'Malind':           Value of the PROP
 
 *This info will show inside CommentDetail
+
+
+2. Child consumes that information
