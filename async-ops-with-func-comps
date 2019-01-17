@@ -1,0 +1,7 @@
+TIMELINE OF EVENTS HAPPENING IN USER'S BROWSER
+1. JS File loaded by browser
+2. App Component gets created
+3. Call geolocation service
+4. App returns JSX, gets rendered to page as HTML
+...
+5. Get results of geolocation
