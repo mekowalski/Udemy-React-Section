@@ -1,3 +1,13 @@
 Parent Component can pass multiple PROPs to the Child
 eg: App Component
 <CommentDetail author='Malind' timeAgo='Today at 1:15PM' />
+
+
+Child will be able to receive PROPs in the respective place inside JSX
+eg: CommentDetail Component
+<a href='/' className='author'>
+  {props.author}
+</a>
+<div className='metadata'>
+  <span className='date'>{props.timeAgo}</span>
+</div>
