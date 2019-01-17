@@ -24,3 +24,20 @@ eg: App Component
 
 *CommentDetail Component is now passed as PROP down into the WrappedCard Component
 *It is considered a PROP because it provides some configuration to the WrappedCard Component
+
+Wrap the Child Component inside another component as Child PROPS
+eg: WrappedCard.js
+const WrappedCard = props => {
+  return (
+    <div className='ui card'>
+      <div className='content'>{props.children}</div>
+      ...more code
+
+*Show some custom content inside a Component
+*Take the Child Comp, wrap it within a Parent Comp
+*Then that Child will show up inside of a Child Comp on the {props.children} property, referenced anywhere
+ inside JSX
+
+App: Overall Parent
+  WrappedCard: Parent
+  CommentDetail: Child
