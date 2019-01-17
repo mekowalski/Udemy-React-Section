@@ -19,3 +19,8 @@ Class: Good for just about everything else, With complex logic, respond to user 
 -Class Components make the code clearer to read
 -State system handles user input and updates how the application looks
 -Life cycle creates simple tasks when app starts up
+
+-When a Class is created, a new Class is created with one method assigned to it 'render()'
+-In order to use class-based Component with React, React expects the class-based Component to have many
+ other methods attached to it
+-Borrow all the other methods/built-in functionality from React.Component
