@@ -42,3 +42,15 @@ author=:            PROPerty name
 
 
 2. Child consumes that information
+eg:
+const CommentDetail = props => {
+  console.log(props)
+  return (
+    //CODE
+    <a href='/' className='author'>
+      {props.author}
+    </a>
+  )
+}
+
+*L51 will display each name of provided in the Parent component App
