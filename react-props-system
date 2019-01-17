@@ -1,7 +1,6 @@
 COMPONENT HIERARCHY
                           App
                            |
-                           |
         ------------------ | ------------------
         |                  |                  |
     Component          Component          Component
@@ -15,3 +14,12 @@ PROPS
 -The goal is to customize/configure a Child component
 -Make sure behavior is different when user interacts with it
 -Purpose of props is the customize displaying content and user interaction
+
+                              App
+                               |
+            ------------------ | ------------------
+            |                  |                  |
+PROPS     name:              name:              name:
+         'Malind'           'Ryan'           'Kristopher'
+            |                  |                  |
+      CommentDetail      CommentDetail      CommentDetail
