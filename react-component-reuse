@@ -41,3 +41,6 @@ const WrappedCard = props => {
 App: Overall Parent
   WrappedCard: Parent
   CommentDetail: Child
+
+*Make sure in the target component(WrappedCard) to reference {props.children}
+*Otherwise Children passed inside the Target Component will never show up
