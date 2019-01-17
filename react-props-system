@@ -5,3 +5,13 @@ COMPONENT HIERARCHY
         ------------------ | ------------------
         |                  |                  |
     Component          Component          Component
+
+*Different components being displayed in the App component and the relationships
+*App is the Parent Component
+*Three instances of Component is a Child
+
+PROPS
+-A system from passing data from a Parent component to a Child component
+-The goal is to customize/configure a Child component
+-Make sure behavior is different when user interacts with it
+-Purpose of props is the customize displaying content and user interaction
