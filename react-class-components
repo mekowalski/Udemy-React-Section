@@ -15,3 +15,7 @@ Class: Good for just about everything else, With complex logic, respond to user 
                           ------> Understands          Easier to do things
                                    lifecycle    --->    when the app first
                                       events                  starts
+
+-Class Components make the code clearer to read
+-State system handles user input and updates how the application looks
+-Life cycle creates simple tasks when app starts up
