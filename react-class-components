@@ -1,3 +1,17 @@
 CLASS-BASED COMPONENT
 -How to use them to manage feedback from user or from other systems inside program
 -Update how Components render content on the screen based on new information
+
+Functional: Good for simple content, without a lot of logic
+Class: Good for just about everything else, With complex logic, respond to user input, etc
+
+                          ------> Easier code
+                          |       organization
+      Benefits of         |
+        CLASS             ------> Can use 'state'      Easier to handle
+      COMPONENTS          |       (another React  --->   user input
+                          |           system)
+                          |
+                          ------> Understands          Easier to do things
+                                   lifecycle    --->    when the app first
+                                      events                  starts
