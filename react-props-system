@@ -23,3 +23,8 @@ PROPS     name:              name:              name:
          'Malind'           'Ryan'           'Kristopher'
             |                  |                  |
       CommentDetail      CommentDetail      CommentDetail
+
+*App will show instances of CommentDetail
+*When it shows these Components it will also pass in a little bit of configuration(L22) to each
+ CommentDetail
+*No limit to the amount of information that can be shared in the configuration
