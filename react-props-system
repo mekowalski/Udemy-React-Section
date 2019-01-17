@@ -54,3 +54,9 @@ const CommentDetail = props => {
 }
 
 *L51 will display each name of provided in the Parent component App
+
+
+OVERALL
+-Provide information from Parent to Child by adding an attribute
+-In the Child, reference the PROPs argument
+-Then refer to the PROP inside the JSX
