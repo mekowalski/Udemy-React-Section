@@ -28,3 +28,16 @@ PROPS     name:              name:              name:
 *When it shows these Components it will also pass in a little bit of configuration(L22) to each
  CommentDetail
 *No limit to the amount of information that can be shared in the configuration
+(PROPS = PROPerties)
+
+TWO STAGES
+1. Provide info from Parent to Child
+2. Child consumes that information
+
+Providing Props from Parent to Child
+<CommentDetail author='Malind' />
+CommentDetail:      Child Component
+author=:            PROPerty name
+'Malind':           Value of the PROP
+
+*This info will show inside CommentDetail
