@@ -1,0 +1,7 @@
+COMPONENT HIERARCHY
+                          App
+                           |
+                           |
+        ------------------ | ------------------
+        |                  |                  |
+    Component          Component          Component
