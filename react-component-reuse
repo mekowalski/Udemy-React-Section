@@ -1,1 +1,5 @@
 Wrap different comments in a wrapped syntax
+-Wrapped Card will not always be hard-coded to show an instance of CommentDetail
+-It's possible an application may need to reuse a Wrapped Card Component that will have certain attributes
+ in it
+-Have the ability to swap out different content
