@@ -3,3 +3,6 @@ Wrap different comments in a wrapped syntax
 -It's possible an application may need to reuse a Wrapped Card Component that will have certain attributes
  in it
 -Have the ability to swap out different content
+
+//can add a bit more JSX to show wrapping outline idea
+//but the purpose of PROPs is to create resuable Components
