@@ -3,4 +3,4 @@ CREATING A REUSABLE CONFIGURABLE COMPONENT
 [x]2. What is the purpose of that JSX block, think of a descriptive name for its function
 [x]3. Create new file to hold new component, it should have the same name as component
 [x]4. Create new component in the new file, paste JSX into it
-[]5. Make new component configurable by using React's props system
+[x]5. Make new component configurable by using React's props system
