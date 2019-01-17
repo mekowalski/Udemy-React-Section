@@ -3,5 +3,10 @@ TIMELINE OF EVENTS HAPPENING IN USER'S BROWSER
 2. App Component gets created
 3. Call geolocation service
 4. App returns JSX, gets rendered to page as HTML
+  -This entire process occurs far sooner than a result is ever retrieved
+  -Long ago the App Component was already rendered
+  -No way to wait until the success callback is used
+
+  SOLUTION: CLASS-BASED COMPONENT
 ...
 5. Get results of geolocation
