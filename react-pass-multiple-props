@@ -1,0 +1,3 @@
+Parent Component can pass multiple PROPs to the Child
+eg: App Component
+<CommentDetail author='Malind' timeAgo='Today at 1:15PM' />
