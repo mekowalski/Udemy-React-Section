@@ -6,3 +6,21 @@ Wrap different comments in a wrapped syntax
 
 //can add a bit more JSX to show wrapping outline idea
 //but the purpose of PROPs is to create resuable Components
+
+
+MAKE USE OF PROPS FEATURE
+-PROPs are usually used within a Component tag with single or multiple key='value' pairs
+
+-Another way to communicate into Child Component
+eg: App Component
+<WrappedCard>
+  <CommentDetail
+    author='Malind'
+    timeAgo='Today at 1:15PM'
+    commentText='This was a good read'
+    avatar={faker.image.avatar()}
+  />
+</WrappedCard>
+
+*CommentDetail Component is now passed as PROP down into the WrappedCard Component
+*It is considered a PROP because it provides some configuration to the WrappedCard Component
