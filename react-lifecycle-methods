@@ -13,6 +13,9 @@ Component Lifecycle Method: function optionally defined in class-based Component
 3. componentDidMount(optional)
   -Good for data-loading
   -If this is defined inside class, this will be automatically called ONE time
+  -Only gets invoked for ONE time
+  -A lot of Docs and best practice prefer data-loading in this Cycle instead of Constructor
+  -This then leads to more, clear code for data-loading
 ---Sit and wait for updates
 
 4. componentDidUpdate(optional)
@@ -24,3 +27,6 @@ Component Lifecycle Method: function optionally defined in class-based Component
 5. componentWillUnmount(optional)
   -If this Component no longer is shown, then this will be called
   -Used for cleanup, especially for non-React
+
+*These are not all the lifecycle methods
+*The others are infrequently used
