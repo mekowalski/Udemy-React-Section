@@ -14,3 +14,14 @@ RULES OF STATE
 -State must be initialized when a Component is created
 
 -State can ONLY be updated using the 'setState' function
+
+
+INITIALIZE STATE THROUGH CONSTRUCTORS
+-Initialize State when Component is created
+-Constructor function is not required by React, it's a JS function
+-This function will automatically be called before anything else
+eg:
+class App extends React.Component {
+  constructor(props) {
+    super(props)
+  }
