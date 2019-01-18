@@ -1,8 +1,16 @@
 State is quite challenging!!!
 RULES OF STATE
 -Only usable with Class Components
--State and Props will be confusing
+  (Technically can be used with functional Components using the 'hook' system)
+  (WAY MORE CHALLENGING)
+
+-State and Props will be confusing :(
+
 -State is a JS object that contains data relevant to a Component
+  (One single State that is relevant to App, one single State relevant to SeasonContent)
+
 -Updating State on a Component causes Component to (almost) instantly re-render
+
 -State must be initialized when a Component is created
--State can only be updated using the 'setState' function
+
+-State can ONLY be updated using the 'setState' function
