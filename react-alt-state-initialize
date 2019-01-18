@@ -1,2 +1,16 @@
 ALTERNATIVE STATE INITIALIZATION
 -Does not involve constructor function
+
+Current/previous State Initialization
+eg:
+class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { lat: null, errorMessage: '' }
+  }
+
+Alternative State Initialization
+eg:
+state = { lat: null, errorMessage: '' }
+
+*Both are 100% equivalent
