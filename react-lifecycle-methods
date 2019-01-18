@@ -1,0 +1,16 @@
+COMPONENT LIFECYCLE
+Component Lifecycle Method: function optionally defined in class-based Components
+  -If deciding you implement these methods, they will be called automatically by React at certain points
+   during a Component's lifecycle
+
+1. Constructor(optional)
+2. render()(mandatory)
+---Content visible on screen
+
+3. componentDidMount
+---Sit and wait for updates
+
+4. componentDidUpdate
+---Sit and wait until Component is not longer shown
+
+5. componentWillUnmount
