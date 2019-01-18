@@ -4,3 +4,6 @@ eg: App.js/render()
 if (!this.state.errorMessage && this.state.lat) {
   return <SeasonContent lat={this.state.lat} />
 }
+
+*This is where State and Props become confusing
+*Can take State from one Parent Component and pass it as Prop to a Child Component
