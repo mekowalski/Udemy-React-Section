@@ -7,9 +7,13 @@ TIMELINE
   -getCurrentPosition is called with its 'position' callback function
 6. React calls Component render() method
 7. App returns JSX, gets rendered to page as HTML
+  -App Component was rendered twice: this is the first time
 ...
 8. Get result of Geolocation
+  -This is when the extra window pops up to ask permission for location
 9. Update the State object with a call to 'this.setState'
 10. React sees the Component State is updates
 11. React calls the render() method a second time
+  -App is rendered a 2nd time here
 12. Render method returns some (updated) JSX
+13. Finally, React takes the JSX and updates the content on the screen
