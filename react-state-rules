@@ -32,6 +32,7 @@ class App extends React.Component {
 *Still want to make sure the setup code in the REACT.COMPONENT constructor function still gets called
 *And to make sure all the Parent (REACT.COMPONENT) gets called, super(props) has to be called
 
+
 -In order to initialize State object, underneath super(props) call, define initial State
 eg:
 class App extends React.Component {
@@ -41,3 +42,25 @@ class App extends React.Component {
     this.state = {}
   }
 *{} object holds data of state
+
+*SIDENOTE: Never want to initialize some work/request from a call in the render() method because it gets
+ called ALL THE TIME
+
+-Updating State on a Component causes Component to (almost) instantly re-render
+-The instance the App Component shows on screen or and instance is created, it will begin attempting to
+ get the user location
+-setState is called in order to update State
+eg:
+class App extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = { lat: null }
+
+    window.navigator.geolocation.getCurrentPosition(
+      position => {
+        this.setState({ lat: position.coords.latitude })
+      },
+      error => console.log(error)
+    );
+  }
