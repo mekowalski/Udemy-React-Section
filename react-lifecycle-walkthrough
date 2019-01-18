@@ -1,0 +1,7 @@
+TIMELINE
+1. Load index.js(JS) file in browser and executed
+2. Instance of App Component is created
+3. App Component constructor function gets called
+4. State Object is created and assigned to 'this.state' property
+5. Geolocation service is called
+6. React calls Component render() method
