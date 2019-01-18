@@ -31,3 +31,13 @@ class App extends React.Component {
 *A constructor function essentially overwrites/replaces the constructor function inside REACT.COMPONENT
 *Still want to make sure the setup code in the REACT.COMPONENT constructor function still gets called
 *And to make sure all the Parent (REACT.COMPONENT) gets called, super(props) has to be called
+
+-In order to initialize State object, underneath super(props) call, define initial State
+eg:
+class App extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {}
+  }
+*{} object holds data of state
