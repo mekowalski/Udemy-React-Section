@@ -25,3 +25,9 @@ class App extends React.Component {
   constructor(props) {
     super(props)
   }
+
+*super(props): App Component extends functionality from React base class
+*This base class has a constructor function of its own going through some amount of setup
+*A constructor function essentially overwrites/replaces the constructor function inside REACT.COMPONENT
+*Still want to make sure the setup code in the REACT.COMPONENT constructor function still gets called
+*And to make sure all the Parent (REACT.COMPONENT) gets called, super(props) has to be called
