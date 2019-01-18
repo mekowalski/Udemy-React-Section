@@ -7,10 +7,15 @@ Component Lifecycle Method: function optionally defined in class-based Component
 2. render()(mandatory)
 ---Content visible on screen
 
-3. componentDidMount
+3. componentDidMount(optional)
+-If this is defined inside class, this will be automatically called ONE time
 ---Sit and wait for updates
 
-4. componentDidUpdate
+4. componentDidUpdate(optional)
+-Update comes in the form of 'this.setState' method
+-Optionally defined inside class, it will be called automatically whenever the Component updates itself
 ---Sit and wait until Component is not longer shown
 
-5. componentWillUnmount
+5. componentWillUnmount(optional)
+-If this Component no longer is shown, then this will be called
+-Used for cleanup
