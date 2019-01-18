@@ -4,18 +4,23 @@ Component Lifecycle Method: function optionally defined in class-based Component
    during a Component's lifecycle
 
 1. Constructor(optional)
+  -Good place to do one-time setup
+
 2. render()(mandatory)
+  -Avoid doing anything besdies returning JSX
 ---Content visible on screen
 
 3. componentDidMount(optional)
--If this is defined inside class, this will be automatically called ONE time
+  -Good for data-loading
+  -If this is defined inside class, this will be automatically called ONE time
 ---Sit and wait for updates
 
 4. componentDidUpdate(optional)
--Update comes in the form of 'this.setState' method
--Optionally defined inside class, it will be called automatically whenever the Component updates itself
+  -Good for doing more data-loading when state/props change
+  -Update comes in the form of 'this.setState' method
+  -Optionally defined inside class, it will be called automatically whenever the Component updates itself
 ---Sit and wait until Component is not longer shown
 
 5. componentWillUnmount(optional)
--If this Component no longer is shown, then this will be called
--Used for cleanup
+  -If this Component no longer is shown, then this will be called
+  -Used for cleanup, especially for non-React
