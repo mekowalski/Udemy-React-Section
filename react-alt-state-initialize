@@ -14,3 +14,8 @@ eg:
 state = { lat: null, errorMessage: '' }
 
 *Both are 100% equivalent
+
+-Code written inside editor doesn't show in browser
+-The written code runs through the tool, Babel
+-After this goes through Babel, this will build the constructor function and initialize State
+-Don't have to define constructor and utilize super(props)
