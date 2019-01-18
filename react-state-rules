@@ -1,1 +1,8 @@
 State is quite challenging!!!
+RULES OF STATE
+-Only usable with Class Components
+-State and Props will be confusing
+-State is a JS object that contains data relevant to a Component
+-Updating State on a Component causes Component to (almost) instantly re-render
+-State must be initialized when a Component is created
+-State can only be updated using the 'setState' function
