@@ -1,0 +1,6 @@
+To use State as a Prop
+-Add the State name(lat) as a property in the instance of the Component
+eg: App.js/render()
+if (!this.state.errorMessage && this.state.lat) {
+  return <SeasonContent lat={this.state.lat} />
+}
