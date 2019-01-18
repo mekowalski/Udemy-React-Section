@@ -2,6 +2,14 @@ TIMELINE
 1. Load index.js(JS) file in browser and executed
 2. Instance of App Component is created
 3. App Component constructor function gets called
-4. State Object is created and assigned to 'this.state' property
+4. State Object is initialized and assigned to 'this.state' property
 5. Geolocation service is called
+  -getCurrentPosition is called with its 'position' callback function
 6. React calls Component render() method
+7. App returns JSX, gets rendered to page as HTML
+...
+8. Get result of Geolocation
+9. Update the State object with a call to 'this.setState'
+10. React sees the Component State is updates
+11. React calls the render() method a second time
+12. Render method returns some (updated) JSX
