@@ -3,3 +3,12 @@ DEFAULT PROPS
 -A bit more elegant and cleaner to reuse Component
 
 -List name of Prop and default value
+eg: Loading.js
+Loading.defaultProps = {
+  message: 'Loading...'
+}
+
+*If an instance of this Loading Component is made and is not passed in a message prop
+*There will be a provided default
+
+-Good to create default props when making VERY reusable Components
