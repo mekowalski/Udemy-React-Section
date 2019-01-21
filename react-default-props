@@ -1,0 +1,5 @@
+DEFAULT PROPS
+-An object, providing a default property to a Component
+-A bit more elegant and cleaner to reuse Component
+
+-List name of Prop and default value
