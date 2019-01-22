@@ -1,5 +1,4 @@
 PROPs system allows info to be passed down from Parent to Child(ren)
--Turn App Component to class-based Component
     APP
 this.onSearchSubmit
     |
@@ -10,4 +9,22 @@ this.onSearchSubmit          |
     |                   ImageList
 SearchBar
 
-*
+Step 1:
+-Turn App Component to class-based Component
+eg: App component
+class App extends React.Component {
+
+  render() {
+    return (
+      <div className='ui container' style={{marginTop: '10px'}}>
+      <SearchBar />
+      </div>
+    );
+  }
+}
+
+
+Step 2:
+-In App define CB name onSearchSubmit, passed down to SearchBar
+*User submitted the form? Better call the CB to tell App(this.onSearchSubmit)
+eg:
