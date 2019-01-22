@@ -3,12 +3,15 @@ CONTROLLED vs UNCONTROLLED
 eg: SearchBar
 class SearchBar extends React.Component {
   state = { term: '' };
-  ...div/label code
+
+  render(
+  ...form/div/label code
     <input
       type='text'
       value={this.state.term}
       onChange={(e) => this.setState({term: e.target.value})}
     />
+  )
 
 FLOW
 1. User types in input
@@ -16,3 +19,10 @@ FLOW
 3. Call setState with new value
 4. Component re-renders
 5. Input is told what its value is(coming from State)
+
+DIFFERENCES
+UNCONTROLLED:
+-Only way to figure out the value at any time was to reach into DOM & pull out value
+-Technically a time where React Component knew the value input, ONLY during the type a user would type
+ something into input and callback was invoked
+-During all other periods of time, the source of truth was inside the HTML document NOT React
