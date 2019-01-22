@@ -1,1 +1,13 @@
 PROPs system allows info to be passed down from Parent to Child(ren)
+-Turn App Component to class-based Component
+    APP
+this.onSearchSubmit
+    |
+    |------------------------|
+    |                        |
+this.onSearchSubmit          |
+    |                        |
+    |                   ImageList
+SearchBar
+
+*
