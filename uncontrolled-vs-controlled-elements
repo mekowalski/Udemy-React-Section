@@ -26,3 +26,8 @@ UNCONTROLLED:
 -Technically a time where React Component knew the value input, ONLY during the type a user would type
  something into input and callback was invoked
 -During all other periods of time, the source of truth was inside the HTML document NOT React
+
+CONTROLLED:
+-Input value at any instance in time would be determined in React Component State object
+-Able to find value without going into DOM
+-Store info inside React components NOT inside the DOM
