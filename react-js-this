@@ -24,3 +24,14 @@ Instance of SearchBar
         this
 
 HOW IS THE VALUE OF THIS DETERMINED IN A FUNCTION
+-Exception of 'this' working in an instance is in the console.log()
+eg: Dummy Class - Set a value and later on return the value
+class Car {
+  setDriveSound(sound) {
+    this.sound = sound
+  }
+
+  drive() {
+    return this.sound
+  }
+}
