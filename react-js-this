@@ -35,3 +35,12 @@ class Car {
     return this.sound
   }
 }
+
+const car = new Car()
+car.setDriveSound('vrooom')
+car.drive() => vroom
+
+-Whenever finding out value for 'this'(L35) is equal to, inside of the method of a Class
+-Look, not at the method itself, look at where the method is called(L41)
+-L41: car.drive() | car = this
+*Car class instance variable, look to the left of . when function is called
