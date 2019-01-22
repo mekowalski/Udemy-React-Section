@@ -1,0 +1,3 @@
+UNDERSTANDING THIS IN JAVASCRIPT
+-Uncaught TypeError: Cannot read property 'state' of undefined
+^Most common error message in every React project, will happen ALL THE TIME
