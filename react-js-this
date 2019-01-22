@@ -8,3 +8,19 @@ undefined: value inside JavaScript
 console.log(this.state.term)
 -JavaScript thinks that inside the onFormSubmit function 'this' is not equal to instance of SearchBar class
 -It thinks that 'this' is equal to the value undefined
+
+WHAT IS THIS USED FOR
+-this: References the instance of the Class Component
+
+Instance of SearchBar
+        PROPS
+          |
+        STATE
+          |
+       RENDER
+          |
+     onFormSubmit
+
+        this
+
+HOW IS THE VALUE OF THIS DETERMINED IN A FUNCTION
