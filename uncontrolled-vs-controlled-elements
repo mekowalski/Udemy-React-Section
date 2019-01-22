@@ -1,2 +1,18 @@
 CONTROLLED vs UNCONTROLLED
--Developers prefer to work with Controleld elements
+-Developers prefer to work with Controlled elements
+eg: SearchBar
+class SearchBar extends React.Component {
+  state = { term: '' };
+  ...div/label code
+    <input
+      type='text'
+      value={this.state.term}
+      onChange={(e) => this.setState({term: e.target.value})}
+    />
+
+FLOW
+1. User types in input
+2. Callback gets invoked
+3. Call setState with new value
+4. Component re-renders
+5. Input is told what its value is(coming from State)
