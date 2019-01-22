@@ -1,3 +1,10 @@
 UNDERSTANDING THIS IN JAVASCRIPT
 -Uncaught TypeError: Cannot read property 'state' of undefined
 ^Most common error message in every React project, will happen ALL THE TIME
+
+undefined: value inside JavaScript
+-Message states trying to reference 'undefined.state'
+
+console.log(this.state.term)
+-JavaScript thinks that inside the onFormSubmit function 'this' is not equal to instance of SearchBar class
+-It thinks that 'this' is equal to the value undefined
