@@ -80,3 +80,7 @@ async onSearchSubmit(term) {
   });
   console.log(response.data.results)
 }
+*Async Await easier to understand and write out
+*Find what is returning(time to resolve), which is 'axios.get()'
+*What gets returned will be assigned to a variable
+*That variable will be worked with later
