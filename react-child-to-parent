@@ -13,6 +13,9 @@ Step 1:
 -Turn App Component to class-based Component
 eg: App component
 class App extends React.Component {
+  onSearchSubmit(term) {
+    console.log(term)
+  }
 
   render() {
     return (
@@ -27,4 +30,31 @@ class App extends React.Component {
 Step 2:
 -In App define CB name onSearchSubmit, passed down to SearchBar
 *User submitted the form? Better call the CB to tell App(this.onSearchSubmit)
-eg:
+eg: App component
+class App extends React.Component {
+  onSearchSubmit(term) {
+    console.log(term)
+  }
+
+  render()...
+  <SearchBar onSubmit={this.onSearchSubmit} />
+
+
+Step 3:
+-Reference prop to the Child Component
+eg: SearchBar Component
+class SearchBar extends React.Component {
+  state = { term: '' };
+
+  onFormSubmit = event => {
+    event.preventDefault()
+    this.props.onSubmit(this.state.term)
+  }
+
+
+REFERENCING PROPs
+-The majority of PROPS have been referenced in functional components
+-In class-based Component references the PROPs object with 'this'
+eg: this.props.onSubmit
+
+-To get access of callback() passed from App to SearchBar reference this.props.onSubmit
