@@ -10,3 +10,10 @@
 -Send a request to get list of images of the key term(dogs)
 -Unsplash API sends JSON records matching the request
 -Use that JSON to render a big list of the search term results
+
+AXIOS VS FETCH
+-Not the job of React library to make request to API
+-React only shows HTML content and handles user interaction
+-AJAX request is a separate piece of the code(AJAX Client)
+1.Axios:
+2.Fetch
