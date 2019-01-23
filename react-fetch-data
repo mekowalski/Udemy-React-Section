@@ -41,3 +41,14 @@ onSearchSubmit(term) {
   //1st arg: address to make GET request to(endpoint)
   //2nd arg: object to customize the request
 }
+
+
+HANDLE REQUEST WITH ASYNC AWAIT
+-Get data from request and show it on the screen
+1. Component renders itself one time with no photos list
+2. onSearchSubmit method called
+3. Request made to Unsplash
+---WAIT---
+4. Request is complete
+5. Set photo data on State of App Component
+6. App Component re-renders and shows photos!
