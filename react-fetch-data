@@ -5,3 +5,8 @@
 | APP |                                               | UNSPLASH |
  -----             <---Here you go!<---               |    API   |
                                                        ----------
+*Unsplash is a company focused on stock images or images of all types
+
+-Send a request to get list of images of the key term(dogs)
+-Unsplash API sends JSON records matching the request
+-Use that JSON to render a big list of the search term results
