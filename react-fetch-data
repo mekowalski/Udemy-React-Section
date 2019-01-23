@@ -33,7 +33,10 @@ VIEW REQUEST RESULTS
 eg: App/onSearchSubmit
 onSearchSubmit(term) {
   axios.get('https://api.unsplash.com/search/photos', {
-
+    params: { query: term },
+    headers: {
+      Authorization: 'Client-ID cd676e1ef029ce061d3722b47bc05267297569b249b49306547aa9fb1de2213e'
+    }
   })
   //1st arg: address to make GET request to(endpoint)
   //2nd arg: object to customize the request
