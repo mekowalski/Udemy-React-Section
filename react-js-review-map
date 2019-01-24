@@ -12,3 +12,22 @@ for(let i = 0; i < numbers.length; i++) {
 
 numbers => [0, 3, 6, 9]
 newNumbers => [0, 36, 72, 108]
+
+
+MAP: will do the same thing as the FOR loop
+-Iterate over an array
+-Return brand new array
+-Take new array and modify it to my liking
+
+eg:
+let newNumbers = [];
+
+for(let i = 0; i < numbers.length; i++) {
+  newNumbers.push(numbers[i] * 12)
+}
+
+numbers.map(() => {
+
+})
+*the function on L29, 2nd () before =>
+*inner function is called with each element in original array
