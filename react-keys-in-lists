@@ -23,3 +23,16 @@ eg: New rendered list
 
 *Key props reuses the ID from the ToDo Items
 *React will then compare the Current list in DOM to the new list and figure out which needs to be rendered
+
+
+-Key is a performance consideration
+-It will help React render or updates to list
+-best interest to include Key on every element rendered on a LIST
+
+
+-Why is the ID of the items used for the Key when they're rendered?
+-Every one of the items will be rendered as a <div> or <li> or <span>
+-Try to use a Key property(value) that corresponds to the distinct element to the array of items that are
+ iterated over
+-When fetching data from an external API, just about every time a list of items is retrieved, it will
+ frequently have an ID property that is unique to that record thus making it suitable for a Key
