@@ -22,12 +22,15 @@ MAP: will do the same thing as the FOR loop
 eg:
 let newNumbers = [];
 
-for(let i = 0; i < numbers.length; i++) {
-  newNumbers.push(numbers[i] * 12)
-}
-
-numbers.map(() => {
-
+-MAP does the exact same as the FOR loop
+numbers.map((num) => {
+  return num * 12;
 })
+=> [0, 36, 72, 108]
+*number is a JS keyword, therefore use a relating word for iterating over the array(in this case: num)
 *the function on L29, 2nd () before =>
 *inner function is called with each element in original array
+
+-Simplify FOR loop and defining an array ahead of time
+eg:
+numbers.map(num => num * 12)
