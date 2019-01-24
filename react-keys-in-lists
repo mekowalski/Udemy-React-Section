@@ -12,3 +12,14 @@ List of ToDo Items                                    Rendered List
 *Maybe user may need to add a new ToDo Item
 *Tell React to re-render application
 *React will look at what's currently in the DOM to see what doesn't need to be re-rendered
+
+-In order to allow React to render new items into the DOM, a Key prop needs to be added to each element of
+ the list of items rendered
+eg: New rendered list
+<div key=1>Take out trash</div>
+<div key=2>Sweep first floor</div>
+<div key=3>Clean bathroom</div>
+<div key=4>Wash bed sheets</div>
+
+*Key props reuses the ID from the ToDo Items
+*React will then compare the Current list in DOM to the new list and figure out which needs to be rendered
