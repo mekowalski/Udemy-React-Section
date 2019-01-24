@@ -1,3 +1,8 @@
 WHAT IS KEY LIST
 -Why use.define one when building a list of components
 eg:
+
+List of ToDo Items                                    Rendered List
+{id: 1, task: 'Take out trash'}         ------>       <div>Take out trash</div>
+{id: 2, task: 'Sweep first floor'}      ------>       <div>Sweep first floor</div>
+{id: 3, task: 'Clean bathroom'}         ------>       <div>Clean bathroom</div>
