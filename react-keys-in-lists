@@ -6,3 +6,9 @@ List of ToDo Items                                    Rendered List
 {id: 1, task: 'Take out trash'}         ------>       <div>Take out trash</div>
 {id: 2, task: 'Sweep first floor'}      ------>       <div>Sweep first floor</div>
 {id: 3, task: 'Clean bathroom'}         ------>       <div>Clean bathroom</div>
+
+*ToDo is an object with an ID and Task
+*Imagine that this list is rendered in DOM and visible on the screen
+*Maybe user may need to add a new ToDo Item
+*Tell React to re-render application
+*React will look at what's currently in the DOM to see what doesn't need to be re-rendered
