@@ -1,3 +1,14 @@
 MAPPING JAVASCRIPT ARRAYS
 
 const numbers = [0, 3, 6, 9];
+
+
+-I want to create a NEW array
+let newNumbers = [];
+
+for(let i = 0; i < numbers.length; i++) {
+  newNumbers.push(numbers[i] * 12)
+}
+
+numbers => [0, 3, 6, 9]
+newNumbers => [0, 36, 72, 108]
