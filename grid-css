@@ -1,3 +1,12 @@
 GRID CSS SYSTEM
 -Find element in the DOM hierarchy
 -Every photo (or element) under that Top-level element will be layed out in a Grid format
+
+eg:
+  <div style = 'display: grid'>         -----  -----  -----
+      <img 1>                           | 1 |  | 2 |  | 3 |
+      <img 2>                           -----  -----  -----
+      <img 3>                           -----  -----  -----
+      <img 4>                           | 4 |  | 5 |  | 6 |
+      <img 5>                           -----  -----  -----  
+      <img 6>
