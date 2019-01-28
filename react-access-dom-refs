@@ -12,3 +12,11 @@ document.querySelector('img')
 
 document.querySelector('img').clientHeight
 => returns numerical value of how many pixels of space that image has to render correctly without overlap
+
+
+DOM ACCESS VIA REACT
+-Make use of React system called ref(reference)
+-React Refs
+  -Gives access to a single DOM element
+  -Create refs in constructor, assign it to instance variables, then pass it to a particular JSX element
+   as PROPs
