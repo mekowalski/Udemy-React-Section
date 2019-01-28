@@ -27,3 +27,11 @@ ISSUES WITH GRID CSS
 -grid-auto-rows: 200px: This will scrunch up the rows into a smaller pixel size, or whatever size is given
 -It won't work with photos that are larger in width size that is determined in the pixel value therefore
  photos will overlap
+
+-grid-row-end: span #: provides more space but this is a rule that is only applied to all the photos at the
+ same time
+-Each of the photos will require a different span value
+-For every individual photo, determine the height. Based on the height decide on how many spans should be
+ allocated
+-This cannot be CSS alone, because the styling is based upon the content of the photo
+-Therefore JS will need to be written and React will come into play(YAY!)
