@@ -20,3 +20,10 @@ eg:
   -auto-fill: will determine how many columns to insert
   -minmax(#px, #fr): each column will have a minimum of whatever px and an fr of allocated space
   -fr: for every column created, they should all be the same equal size
+
+
+ISSUES WITH GRID CSS
+-Grid CSS will return space gaps between columns and rows due to its default set up
+-grid-auto-rows: 200px: This will scrunch up the rows into a smaller pixel size, or whatever size is given
+-It won't work with photos that are larger in width size that is determined in the pixel value therefore
+ photos will overlap
