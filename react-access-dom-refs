@@ -1,0 +1,4 @@
+1. Let PhotoCard render itself and its photo
+2. Reach into DOM and figure out height of photo
+3. Set the height on State to get Component to re-render
+4. When re-rendering, assign `grid-row-end` to make sure photo takes up appropriate space
