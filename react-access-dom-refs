@@ -2,3 +2,13 @@
 2. Reach into DOM and figure out height of photo
 3. Set the height on State to get Component to re-render
 4. When re-rendering, assign `grid-row-end` to make sure photo takes up appropriate space
+
+
+VANILLA JAVASCRIPT
+-DevTools Console
+eg:
+document.querySelector('img')
+=> the first image tag on the screen with alt and src
+
+document.querySelector('img').clientHeight
+=> returns numerical value of how many pixels of space that image has to render correctly without overlap
