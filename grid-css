@@ -19,3 +19,4 @@ eg:
 2. Create set number of columns with grid-template-columns: repeat(auto-fill, minmax(#px, #fr))
   -auto-fill: will determine how many columns to insert
   -minmax(#px, #fr): each column will have a minimum of whatever px and an fr of allocated space
+  -fr: for every column created, they should all be the same equal size
