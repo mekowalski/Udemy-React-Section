@@ -23,3 +23,9 @@ APP DESIGN
 
   4. VideoDetail: Responsible for showing an actual video player that will play the fetched video
     -Will have a title and description of the video
+
+-The videos will be from Youtube and are not fake
+-Need to figure out how to show and embed the video into the application
+
+
+COMPONENT HIERARCHY
