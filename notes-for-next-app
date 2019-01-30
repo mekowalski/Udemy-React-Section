@@ -15,3 +15,11 @@ APP DESIGN
     - Show input, user can type which updates State, when the enter key is hit, that triggers a formSubmit
     event
     - Send that search term to an App/Parent component which then will actually make the API request
+
+  2. VideoList: Render entire list of videos
+    -Renders a list of the VideoItem
+
+  3. VideoItem: One specific video that will be contained in the VideoList
+
+  4. VideoDetail: Responsible for showing an actual video player that will play the fetched video
+    -Will have a title and description of the video
