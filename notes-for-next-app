@@ -1,0 +1,8 @@
+-Better idea/practice on basic and fundamental React
+-Similar to Photos App with Unsplash API
+-Essentially a Youtube browser app
+  -User can enter in a search term, ie: tulips
+  -Request to Youtube public, free API to search the term entered
+  -Once the list is returned, display them on one side of the screen
+  -User can click on any of the videos and it will be featured in the center
+  -They can click the play button and see a title/description of that video
