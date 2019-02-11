@@ -7,7 +7,7 @@ ES5: Common JavaScript version
 -Generally to the benefit of developers
 
 -Issue with all theses new versions
--Browsers are always held 100% up to date
+-Browsers are NOT always held 100% up to date
 -Majority of browsers will support ES5 and almost true for ES2015
 -Not all browsers have support for ES2016 and forward
 
