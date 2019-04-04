@@ -7,7 +7,8 @@ Component Lifecycle Method: function optionally defined in class-based Component
   -Good place to do one-time setup
 
 2. render()(mandatory)
-  -Avoid doing anything besdies returning JSX
+  -Technically it is a life cycle function, gets called at SOME POINT of life cycle component 
+  -Avoid doing anything besides returning JSX
 ---Content visible on screen
 
 3. componentDidMount(optional)
