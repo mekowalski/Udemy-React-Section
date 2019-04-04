@@ -14,6 +14,11 @@ RULES OF STATE
 -State must be initialized when a Component is created
 
 -State can ONLY be updated using the 'setState' function
+  -state = {default state here}
+  -this.setState({other updated state here})
+  eg: search term
+  state = {'tulips'}
+  this.setState({new-search-term-for-mountains}) *that would obviously be a variable, not hardcoded
 
 
 INITIALIZE STATE THROUGH CONSTRUCTORS
